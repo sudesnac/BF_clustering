@@ -21,26 +21,25 @@ Contains the following data file necessary to run the analysis provided in the n
 **BF segmented roi**: _BF_masked_fullB_1p6mm.dseg.nii.gz_ - ch123 and ch4a/ch4p labeled roi used for statistical analysis.\
 **HCP-MMP1 annot files**: *{lh,rh}_HCP-MMP1_fsa10.annot* - HCP-MMP1 parcellation annotation files in fsa-10k space for [brainspace](https://brainspace.readthedocs.io/en/stable/index.html) visualization.\
 **Yeo network**: *hcp_mmp10_yeo7_modes.txt* - reference for Yeo 7 network mapped onto HCP-MMP1 parcellation from [here](https://pubmed.ncbi.nlm.nih.gov/30793087/).\
-**Glasser 360 fsa5 label files**:_glasser_360_fsaverage5_{lh,rh}label.gii_ - Glasser parcellation labels in fsa10k for parcellating whole brain data (such as the geodesic, myelin and FEOBV data).\
 **BF surface label**:_seed-BASF.{L,R}.bin.fsa5.shape.gii_ - BF seed label in surface space (see Methods section of the publication for the details of creating this file).\
 
-## Notebooks and Results
+## Notebooks, Results and figures 
 
 The notebook folder contains the following jupyter notebooks for running the analysis and creating the figures used in this work.\
-The results folder has sub-folders each containing respective resultant data (such as .nii.gz and .gii files) and figures inside the figures folder. Reference surface for fsa-10k can be downloaded from [here](https://github.com/MICA-MNI/BrainSpace/tree/master/brainspace/datasets/surfaces) for visualizing gii results files using workbench.
+The results and figures folders have sub-folders each containing respective resultant data (such as .nii.gz and .gii files) and figures inside the sub-folders. Reference surface for fsa-10k can be downloaded from [here](https://github.com/MICA-MNI/BrainSpace/tree/master/brainspace/datasets/surfaces) for visualizing gii results files using workbench.
 
-### Diff_concat
+### Diff_1p6mm-concat_clustering and DWI_concat
 
-This notebook contains the code to compute ..... 
+This notebook contains the code to compute clustering analyses done with concatenated diffusion data and the sub-folders have the corresponding results and figures which is presented in the Thesis (Chapter 2).
 
-### Func_concat
+### Func_HCPMMP-concat_clustering.ipynb and Func_concat
 
-This notebook contains the code to compute .....
+This notebook contains the code to compute clustering analyses done with concatenated functional data and the sub-folders have the corresponding results and figures which is presented in the Thesis (Chapter 2).
 
-### Diff_avg
+### Diff_1p6mm-avg_clustering.ipynb and DWI_avg
 
-This notebook is used to compute ...
+This notebook contains the code to compute clustering analyses done with subjects group avaeraged diffusion data and the sub-folders have the corresponding results and figures.
 
-### Func_avg
+### Func_HCPMMP-avg_clustering.ipynb and Func_avg
 
-This notebook is for calculating .....
+This notebook contains the code to compute clustering analyses done with subjects group avaeraged functional data and the sub-folders have the corresponding results and figures.

@@ -31,16 +31,16 @@ The results folder has sub-folders each containing respective resultant data (su
 
 ### Diff_concat
 
-This notebook contains the code to compute diffusion gradients, diffusion gradient-weighted cortical maps, statistical analysis of the gradients against the histologically defined subregions and respective figures (Fig. 1B,C,D left, Fig.2A top). 
+This notebook contains the code to compute ..... 
 
 ### Func_concat
 
-This notebook contains the code to compute functional gradients, functional gradient-weighted cortical maps, statistical analysis of the gradients against the histologically defined subregions and respective figures (Fig. 1B,C,D right, Fig.2B top).
+This notebook contains the code to compute .....
 
 ### Diff_avg
 
-This notebook is used to compute the distribution of cortical gradient-weighted values (diffusion and functional) decomposed into seven functional networks as defined by [Yeo 2011](https://journals.physiology.org/doi/full/10.1152/jn.00338.2011). (Fig.2ABC bottom)
+This notebook is used to compute ...
 
 ### Func_avg
 
-This notebook is for calculating gradient correlations betweeen the diffusion and functional gradients and computing the weighted residuls in BF as well as cortical space. (see Methods section of the publication for the details of this calculation.) (Fig.2C top)
+This notebook is for calculating .....

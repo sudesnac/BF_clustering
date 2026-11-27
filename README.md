@@ -4,7 +4,7 @@ This repository contains codes and data in support of my thesis chapter 2 work "
 
 ## Publications
 
-{Link to the thesis once it's ready...}
+Chakraborty, S. [Multimodal connectivity of the human basal forebrain](https://uwo.scholaris.ca/items/45b61f47-6657-45e8-a074-7423dacca1e4). (Western University, 2023).
 
 ## Prerequisites
 
